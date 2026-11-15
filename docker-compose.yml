@@ -1,0 +1,88 @@
+services:
+  api:
+    image: ${IMAGE_NAME:-chatbot-telco-ep3:latest}
+    env_file: .env
+    environment:
+      AWS_REGION: us-east-1
+      SAGEMAKER_ENDPOINT_NAME: chatbot-telco-ep3
+      MODEL_VERSION: telco-equipo1-v1
+      DATABASE_URL: ${DATABASE_URL:-postgresql://telco:${POSTGRES_PASSWORD:-telco_local_change}@postgres:5432/telco}
+      RABBITMQ_URL: ${RABBITMQ_URL:-amqp://telco:${RABBITMQ_PASSWORD:-telco_rabbit_change}@rabbitmq:5672/%2F}
+      FAQ_PATH: /srv/data/processed/faq.json
+      LOCAL_MODEL_PATH: /srv/data/processed/intent_model.joblib
+    volumes: ["./data/processed:/srv/data/processed:ro"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      rabbitmq: {condition: service_healthy}
+    restart: unless-stopped
+  worker:
+    image: ${IMAGE_NAME:-chatbot-telco-ep3:latest}
+    command: ["python","-m","worker.main"]
+    env_file: .env
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql://telco:${POSTGRES_PASSWORD:-telco_local_change}@postgres:5432/telco}
+      RABBITMQ_URL: ${RABBITMQ_URL:-amqp://telco:${RABBITMQ_PASSWORD:-telco_rabbit_change}@rabbitmq:5672/%2F}
+    volumes: ["./data/processed:/srv/data/processed:ro"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      rabbitmq: {condition: service_healthy}
+    restart: unless-stopped
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: telco
+      POSTGRES_USER: telco
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-telco_local_change}
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U telco -d telco"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+    restart: unless-stopped
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    environment:
+      RABBITMQ_DEFAULT_USER: telco
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:-telco_rabbit_change}
+    volumes: ["rabbitdata:/var/lib/rabbitmq"]
+    healthcheck:
+      test: ["CMD","rabbitmq-diagnostics","-q","ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped
+  prometheus:
+    image: prom/prometheus:v3.2.1
+    command: ["--config.file=/etc/prometheus/prometheus.yml"]
+    volumes: ["./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro"]
+    depends_on: [api]
+    restart: unless-stopped
+  grafana:
+    image: grafana/grafana:11.5.2
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-change-this-grafana}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafanadata:/var/lib/grafana
+      - ./monitoring/provisioning:/etc/grafana/provisioning:ro
+    depends_on: [prometheus]
+    restart: unless-stopped
+  caddy:
+    image: caddy:2.9-alpine
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+    ports: ["80:80","443:443"]
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [api]
+    restart: unless-stopped
+volumes:
+  pgdata:
+  rabbitdata:
+  grafanadata:
+  caddy_data:
+  caddy_config:

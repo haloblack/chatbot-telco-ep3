@@ -1,0 +1,1 @@
+Los CSV originales del caso se entregan en el paquete de trabajo, pero están excluidos del control de versiones y de la imagen Docker porque contienen datos de texto con identificadores personales de prueba. Ejecutar `python -m training.prepare` localmente para generar `data/processed/` anonimizado antes de subir los artefactos autorizados a S3.

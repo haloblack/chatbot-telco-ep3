@@ -1,0 +1,47 @@
+EP3 CHATBOT TELCO - EQUIPO 1
+RESUMEN DE PRUEBAS EN AWS
+Fecha: 15-11-2026
+
+1. PRUEBA DE INFRAESTRUCTURA
+Herramienta: Locust 2.47.0
+Duracion: 180 segundos
+Usuarios virtuales: 2
+Endpoints: GET / y GET /api/health
+Solicitudes: 116
+Errores: 0 (0%)
+Latencia p50: 140 ms
+Latencia p95: 190 ms
+Latencia p99: 290 ms
+RPS: 0.65
+
+2. PRUEBA DE INFERENCIA SAGEMAKER
+Herramienta: Locust 2.47.0
+Duracion: 180 segundos
+Usuarios virtuales: 1
+Endpoint: POST /api/predict
+Solicitudes: 17
+Exitosas: 16
+Errores: 1 (HTTP 503)
+Tasa de errores: 5.88%
+Latencia p50: 84 ms
+Latencia p95: aproximadamente 7400 ms
+Latencia p99: aproximadamente 7400 ms
+RPS: aproximadamente 0.10
+
+3. INVESTIGACION DEL ERROR
+FastAPI registro HTTP 503 a las 17:46:32 UTC.
+CloudWatch registro invocaciones exitosas antes y despues.
+Causa del HTTP 503: no confirmada.
+
+4. PRUEBA DE CONVERSACION
+SageMaker detecto la intencion falla_conexion.
+Confianza: 0.798521
+Version del modelo: telco-equipo1-v1
+NVIDIA genero una respuesta.
+Estado LLM: completed
+
+5. LIMITACIONES
+La prueba de infraestructura no mide inferencia.
+La prueba de SageMaker no mide generacion LLM.
+La latencia completa de conversacion aun no ha sido medida.
+Los percentiles de inferencia son aproximados por el bajo numero de solicitudes.

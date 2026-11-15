@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.joblib
+*.tar.gz
+locust_report.html
+.DS_Store
+
+data/raw/*.csv
+!data/raw/README.md
+
+# Credenciales y respaldos privados
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*.backup
+
+# Archivos temporales
+*.log
+*.sqlite3

@@ -1,0 +1,28 @@
+Eventos revisados: 161
+2026-11-15T17:45:37.264000+00:00 error_log  /dev/stderr;
+2026-11-15T17:45:37.293000+00:00 2026/11/15 17:45:37 [alert] 14#14: setrlimit(RLIMIT_NOFILE, 4096) failed (1: Operation not permitted)
+2026-11-15T17:45:37.293000+00:00 2026/11/15 17:45:37 [alert] 14#14: prctl(PR_SET_DUMPABLE) failed (1: Operation not permitted)
+2026-11-15T17:45:37.293000+00:00 2026/11/15 17:45:37 [alert] 13#13: setrlimit(RLIMIT_NOFILE, 4096) failed (1: Operation not permitted)
+2026-11-15T17:45:37.293000+00:00 2026/11/15 17:45:37 [alert] 13#13: prctl(PR_SET_DUMPABLE) failed (1: Operation not permitted)
+2026-11-15T17:45:42.352000+00:00 127.0.0.1 - - [15/Nov/2026:17:45:42 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:45:53.804000+00:00 127.0.0.1 - - [15/Nov/2026:17:45:53 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:46:03.558000+00:00 127.0.0.1 - - [15/Nov/2026:17:46:03 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:46:16.996000+00:00 error_log  /dev/stderr;
+2026-11-15T17:46:17.036000+00:00 2026/11/15 17:46:17 [alert] 14#14: setrlimit(RLIMIT_NOFILE, 4096) failed (1: Operation not permitted)
+2026-11-15T17:46:17.036000+00:00 2026/11/15 17:46:17 [alert] 14#14: prctl(PR_SET_DUMPABLE) failed (1: Operation not permitted)
+2026-11-15T17:46:17.037000+00:00 2026/11/15 17:46:17 [alert] 13#13: setrlimit(RLIMIT_NOFILE, 4096) failed (1: Operation not permitted)
+2026-11-15T17:46:17.037000+00:00 2026/11/15 17:46:17 [alert] 13#13: prctl(PR_SET_DUMPABLE) failed (1: Operation not permitted)
+2026-11-15T17:46:22.658000+00:00 127.0.0.1 - - [15/Nov/2026:17:46:22 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:46:42.061000+00:00 127.0.0.1 - - [15/Nov/2026:17:46:42 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:46:52.286000+00:00 127.0.0.1 - - [15/Nov/2026:17:46:52 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:02.389000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:02 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:11.370000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:11 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:22.511000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:22 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:32.026000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:32 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:32.026000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:32 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:42.037000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:42 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:47:50.213000+00:00 127.0.0.1 - - [15/Nov/2026:17:47:50 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:48:01.686000+00:00 127.0.0.1 - - [15/Nov/2026:17:48:01 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:48:11.707000+00:00 127.0.0.1 - - [15/Nov/2026:17:48:11 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:48:21.448000+00:00 127.0.0.1 - - [15/Nov/2026:17:48:21 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"
+2026-11-15T17:48:30.568000+00:00 127.0.0.1 - - [15/Nov/2026:17:48:30 +0000] "POST /invocations HTTP/1.1" 200 385 "-" "Go-http-client/1.1"

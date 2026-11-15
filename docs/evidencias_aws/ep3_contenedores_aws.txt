@@ -1,0 +1,8 @@
+NAME                             IMAGE                             COMMAND                  SERVICE      CREATED             STATUS                 PORTS
+chatbot-telco-ep3-api-1          chatbot-telco-ep3:latest          "uvicorn app.main:ap…"   api          18 minutes ago      Up 18 minutes          8000/tcp
+chatbot-telco-ep3-caddy-1        caddy:2.9-alpine                  "caddy run --config …"   caddy        About an hour ago   Up About an hour       0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp, 443/udp, 2019/tcp
+chatbot-telco-ep3-grafana-1      grafana/grafana:11.5.2            "/run.sh"                grafana      21 hours ago        Up 2 hours             3000/tcp
+chatbot-telco-ep3-postgres-1     postgres:16-alpine                "docker-entrypoint.s…"   postgres     21 hours ago        Up 2 hours (healthy)   5432/tcp
+chatbot-telco-ep3-prometheus-1   prom/prometheus:v3.2.1            "/bin/prometheus --c…"   prometheus   21 hours ago        Up 2 hours             9090/tcp
+chatbot-telco-ep3-rabbitmq-1     rabbitmq:3.13-management-alpine   "docker-entrypoint.s…"   rabbitmq     21 hours ago        Up 2 hours (healthy)   4369/tcp, 5671-5672/tcp, 15671-15672/tcp, 15691-15692/tcp, 25672/tcp
+chatbot-telco-ep3-worker-1       chatbot-telco-ep3:latest          "python -m worker.ma…"   worker       51 minutes ago      Up 51 minutes          8000/tcp

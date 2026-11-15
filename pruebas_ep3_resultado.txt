@@ -1,0 +1,31 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.1, pytest-8.3.5, pluggy-1.7.0 -- C:\Users\huevo\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\huevo\Desktop\chatbot_telco_ep3
+plugins: anyio-4.12.1
+collecting ... collected 16 items
+
+tests/test_api.py::test_valid_prediction_200 PASSED                      [  6%]
+tests/test_api.py::test_missing_field_422 PASSED                         [ 12%]
+tests/test_api.py::test_missing_api_key_401 PASSED                       [ 18%]
+tests/test_api.py::test_rate_limit_429 PASSED                            [ 25%]
+tests/test_api.py::test_anonymization_removes_pii PASSED                 [ 31%]
+tests/test_api.py::test_llm_queue_failure_degraded PASSED                [ 37%]
+tests/test_api.py::test_explicit_human_handoff PASSED                    [ 43%]
+tests/test_api.py::test_cancel_intent_handoff PASSED                     [ 50%]
+tests/test_api.py::test_three_failed_attempts_handoff PASSED             [ 56%]
+tests/test_api.py::test_prediction_saved_and_retrieved PASSED            [ 62%]
+tests/test_api.py::test_health_public PASSED                             [ 68%]
+tests/test_api.py::test_conversation_route PASSED                        [ 75%]
+tests/test_api.py::test_worker_llm_failure_degraded PASSED               [ 81%]
+tests/test_api.py::test_predict_does_not_enqueue_llm PASSED              [ 87%]
+tests/test_data.py::test_processed_dataset_exists_and_has_split PASSED   [ 93%]
+tests/test_data.py::test_faq_only_current_articles PASSED                [100%]
+
+============================== warnings summary ===============================
+tests/test_api.py::test_health_public
+  C:\Users\huevo\AppData\Local\Programs\Python\Python313\Lib\site-packages\botocore\auth.py:425: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    datetime_now = datetime.datetime.utcnow()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 16 passed, 1 warning in 5.94s ========================

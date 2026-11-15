@@ -1,0 +1,16 @@
+{
+  "total_examples": 4680,
+  "train": 3744,
+  "test": 936,
+  "classes": {
+    "consulta_saldo": 1288,
+    "consulta_general": 943,
+    "falla_conexion": 690,
+    "cambio_plan": 505,
+    "estado_visita": 494,
+    "portabilidad": 400,
+    "anulacion": 360
+  },
+  "faq_articles_current_mapped": 354,
+  "note": "Datos de texto anonimizados; no exportar IDs personales."
+}

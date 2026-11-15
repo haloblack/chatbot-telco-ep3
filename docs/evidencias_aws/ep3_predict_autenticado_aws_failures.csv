@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/api/predict,HTTPError('503 Server Error: Service Unavailable for url: /api/predict'),1,2026-11-15T17:46:32Z,2026-11-15T17:46:32Z

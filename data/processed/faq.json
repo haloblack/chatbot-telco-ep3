@@ -1,0 +1,2126 @@
+[
+  {
+    "articulo_id": "FQ1001",
+    "pregunta": "Que hago si no tengo internet prepago",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1002",
+    "pregunta": "cuando vence mi boleta paso a paso",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1004",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1005",
+    "pregunta": "como veo la tv en el celular ?",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1006",
+    "pregunta": "Como me porto a Andesnet empresa",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1009",
+    "pregunta": "Como devuelvo el equipo prepago",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1010",
+    "pregunta": "Como pago mi cuenta de fibra",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1011",
+    "pregunta": "Como me porto a Andesnet de TV",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1012",
+    "pregunta": "Como agendo una visita tecnica movil",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1013",
+    "pregunta": "que pasa si pago atrasado desde la app",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1014",
+    "pregunta": "Que pasa si pago atrasado",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/707'>Ver mas</a> Aplica al plan Movil Control 3G.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1016",
+    "pregunta": "Cuanto cuesta el roaming prepago",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1017",
+    "pregunta": "Como anulo mi servicio prepago",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/877'>Ver mas</a> Aplica al plan Movil Control 3G.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1018",
+    "pregunta": "Que cobertura tiene mi comuna empresa",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1020",
+    "pregunta": "Como agendo una visita tecnica movil",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1021",
+    "pregunta": "Como cambio mi plan movil",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar. Aplica al plan Duo Clasico.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1023",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/84'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1024",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/333'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1025",
+    "pregunta": "Que cobertura tiene mi comuna de TV",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1027",
+    "pregunta": "Como pago mi cuenta de fibra",
+    "respuesta": "<p>Puedes pagar en linea desde el portal, en sucursales o por transferencia.</p><a href='/ayuda/668'>Ver mas</a> Aplica al plan Movil Control 3G.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1028",
+    "pregunta": "Cuanto cuesta el roaming",
+    "respuesta": "Depende del pais y del plan contratado. Aplica al plan Duo Clasico.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1029",
+    "pregunta": "Como veo la TV en el celular prepago",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/216'>Ver mas</a>",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1030",
+    "pregunta": "Cuando vence mi boleta",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1031",
+    "pregunta": "Que cobertura tiene mi comuna de fibra",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1032",
+    "pregunta": "Como agendo una visita tecnica",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/710'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1033",
+    "pregunta": "Como anulo mi servicio empresa",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1035",
+    "pregunta": "Como cambio mi plan movil",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/799'>Ver mas</a>",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1037",
+    "pregunta": "Que cobertura tiene mi comuna de TV",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1040",
+    "pregunta": "Cuanto cuesta el roaming prepago",
+    "respuesta": "Depende del pais y del plan contratado. Aplica al plan TV Basico Analogo.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1041",
+    "pregunta": "Cuanto cuesta el roaming prepago",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1042",
+    "pregunta": "como devuelvo el equipo ?",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1043",
+    "pregunta": "Como veo la TV en el celular de fibra",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan Duo Clasico.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1047",
+    "pregunta": "Que hago si no tengo internet de TV",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1048",
+    "pregunta": "Cuando vence mi boleta de fibra",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1049",
+    "pregunta": "Como me porto a Andesnet movil",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1050",
+    "pregunta": "Que cobertura tiene mi comuna empresa",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/418'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1052",
+    "pregunta": "Como cambio mi plan de TV",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/130'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1054",
+    "pregunta": "como agendo una visita tecnica desde la app",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1057",
+    "pregunta": "Que cobertura tiene mi comuna prepago",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1058",
+    "pregunta": "Como cambio mi plan de fibra",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1060",
+    "pregunta": "Quiero saber como veo la tv en el celular",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1061",
+    "pregunta": "Como veo la TV en el celular de TV",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1062",
+    "pregunta": "como cambio mi plan desde la app",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1064",
+    "pregunta": "Que pasa si pago atrasado",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1065",
+    "pregunta": "Como pago mi cuenta movil",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1067",
+    "pregunta": "Como veo la TV en el celular empresa",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1068",
+    "pregunta": "Como cambio mi plan de fibra",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1069",
+    "pregunta": "Como cambio mi plan de TV",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1071",
+    "pregunta": "Como me porto a Andesnet empresa",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1072",
+    "pregunta": "Que hago si no tengo internet movil",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1073",
+    "pregunta": "Como pago mi cuenta de TV",
+    "respuesta": "<p>Puedes pagar en linea desde el portal, en sucursales o por transferencia.</p><a href='/ayuda/114'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1074",
+    "pregunta": "Como anulo mi servicio de TV",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/509'>Ver mas</a>",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1075",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1076",
+    "pregunta": "Como veo la TV en el celular empresa",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1077",
+    "pregunta": "cuando vence mi boleta paso a paso",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1079",
+    "pregunta": "Quiero saber como veo la tv en el celular",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1080",
+    "pregunta": "Que hago si no tengo internet prepago",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1081",
+    "pregunta": "Cuanto cuesta el roaming de fibra",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/40'>Ver mas</a> Aplica al plan Plan Cobre 10M.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1082",
+    "pregunta": "Que cobertura tiene mi comuna",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1083",
+    "pregunta": "Que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan Plan Cobre 10M.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1084",
+    "pregunta": "Que pasa si pago atrasado de TV",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1085",
+    "pregunta": "Como anulo mi servicio empresa",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1087",
+    "pregunta": "como pago mi cuenta ?",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1088",
+    "pregunta": "como pago mi cuenta ?",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1089",
+    "pregunta": "Que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan Plan Andes 200.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1090",
+    "pregunta": "Que hago si no tengo internet prepago",
+    "respuesta": "<p>Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.</p><a href='/ayuda/194'>Ver mas</a> Aplica al plan Duo Clasico.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1092",
+    "pregunta": "Como anulo mi servicio",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/587'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1093",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/159'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1094",
+    "pregunta": "cuando vence mi boleta paso a paso",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1095",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1096",
+    "pregunta": "Como devuelvo el equipo prepago",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1097",
+    "pregunta": "Como pago mi cuenta de fibra",
+    "respuesta": "<p>Puedes pagar en linea desde el portal, en sucursales o por transferencia.</p><a href='/ayuda/222'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1098",
+    "pregunta": "Como anulo mi servicio",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1101",
+    "pregunta": "Como anulo mi servicio",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/855'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1103",
+    "pregunta": "Como veo la TV en el celular de TV",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/891'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1104",
+    "pregunta": "Que cobertura tiene mi comuna",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web. Aplica al plan Plan Andes 200.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1106",
+    "pregunta": "Como pago mi cuenta",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1107",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1108",
+    "pregunta": "Como agendo una visita tecnica de TV",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/645'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1109",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1111",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1112",
+    "pregunta": "Que cobertura tiene mi comuna prepago",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/888'>Ver mas</a> Aplica al plan Movil Control 3G.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1114",
+    "pregunta": "como me porto a andesnet ?",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar. Aplica al plan Plan Andes 200.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1117",
+    "pregunta": "Que hago si no tengo internet de TV",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1119",
+    "pregunta": "Como agendo una visita tecnica de TV",
+    "respuesta": "Desde la app o llamando al 600 600 6000. Aplica al plan Plan Cobre 10M.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1121",
+    "pregunta": "que hago si no tengo internet ?",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1122",
+    "pregunta": "Como anulo mi servicio de fibra",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1124",
+    "pregunta": "Cuanto cuesta el roaming empresa",
+    "respuesta": "Depende del pais y del plan contratado. Aplica al plan Movil Control 3G.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1125",
+    "pregunta": "cuando vence mi boleta paso a paso",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/802'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1126",
+    "pregunta": "Que cobertura tiene mi comuna de TV",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1129",
+    "pregunta": "cuanto cuesta el roaming ?",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1130",
+    "pregunta": "Como cambio mi plan de TV",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1131",
+    "pregunta": "Como devuelvo el equipo de TV",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/802'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1132",
+    "pregunta": "Como me porto a Andesnet empresa",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1135",
+    "pregunta": "Como pago mi cuenta prepago",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1136",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/32'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1137",
+    "pregunta": "Necesito ayuda: como me porto a andesnet",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1139",
+    "pregunta": "Cuando vence mi boleta de fibra",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/149'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1140",
+    "pregunta": "Como veo la TV en el celular",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1141",
+    "pregunta": "Que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1142",
+    "pregunta": "Como cambio mi plan",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar. Aplica al plan TV Basico Analogo.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1144",
+    "pregunta": "Como cambio mi plan",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar. Aplica al plan Plan Cobre 10M.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1145",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1146",
+    "pregunta": "Como pago mi cuenta de fibra",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1147",
+    "pregunta": "que cobertura tiene mi comuna paso a paso",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1149",
+    "pregunta": "Quiero saber que cobertura tiene mi comuna",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/870'>Ver mas</a> Aplica al plan Banda Ancha 20M.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1150",
+    "pregunta": "Que hago si no tengo internet movil",
+    "respuesta": "<p>Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.</p><a href='/ayuda/484'>Ver mas</a>",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1151",
+    "pregunta": "Como agendo una visita tecnica de TV",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1152",
+    "pregunta": "Como pago mi cuenta movil",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1153",
+    "pregunta": "Como pago mi cuenta movil",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1154",
+    "pregunta": "Como veo la TV en el celular de fibra",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1155",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1156",
+    "pregunta": "Cuanto cuesta el roaming de fibra",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1157",
+    "pregunta": "Que cobertura tiene mi comuna",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1158",
+    "pregunta": "Cuando vence mi boleta",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan TV Basico Analogo.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1164",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1165",
+    "pregunta": "Que hago si no tengo internet movil",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1167",
+    "pregunta": "Que cobertura tiene mi comuna prepago",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1170",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1172",
+    "pregunta": "Cuando vence mi boleta prepago",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1173",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/687'>Ver mas</a>",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1174",
+    "pregunta": "Cuanto cuesta el roaming de TV",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1175",
+    "pregunta": "Que hago si no tengo internet de TV",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1176",
+    "pregunta": "Cuando vence mi boleta de TV",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/839'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1178",
+    "pregunta": "como cambio mi plan paso a paso",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1179",
+    "pregunta": "Cuanto cuesta el roaming",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/850'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1180",
+    "pregunta": "Como anulo mi servicio prepago",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1181",
+    "pregunta": "Como agendo una visita tecnica empresa",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/262'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1182",
+    "pregunta": "Que cobertura tiene mi comuna empresa",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/603'>Ver mas</a> Aplica al plan Duo Clasico.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1185",
+    "pregunta": "Quiero saber que pasa si pago atrasado",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1187",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/579'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1188",
+    "pregunta": "como devuelvo el equipo desde la app",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1189",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1190",
+    "pregunta": "Como agendo una visita tecnica prepago",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1192",
+    "pregunta": "que cobertura tiene mi comuna desde la app",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web. Aplica al plan TV Basico Analogo.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1193",
+    "pregunta": "Que cobertura tiene mi comuna prepago",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1194",
+    "pregunta": "cuando vence mi boleta ?",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1195",
+    "pregunta": "Como pago mi cuenta movil",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1196",
+    "pregunta": "como anulo mi servicio paso a paso",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1197",
+    "pregunta": "Que pasa si pago atrasado de fibra",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1198",
+    "pregunta": "Cuanto cuesta el roaming",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/149'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1200",
+    "pregunta": "Necesito ayuda: cuanto cuesta el roaming",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1201",
+    "pregunta": "Que hago si no tengo internet empresa",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1202",
+    "pregunta": "como anulo mi servicio desde la app",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1203",
+    "pregunta": "Cuando vence mi boleta movil",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1205",
+    "pregunta": "Como anulo mi servicio de fibra",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1208",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1209",
+    "pregunta": "Como veo la TV en el celular",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/260'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1210",
+    "pregunta": "Quiero saber como pago mi cuenta",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia. Aplica al plan Movil Control 3G.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1211",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar. Aplica al plan Banda Ancha 20M.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1212",
+    "pregunta": "Como devuelvo el equipo prepago",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1213",
+    "pregunta": "como pago mi cuenta desde la app",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1214",
+    "pregunta": "Como anulo mi servicio de TV",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1216",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan Movil Control 3G.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1217",
+    "pregunta": "Como agendo una visita tecnica movil",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1220",
+    "pregunta": "Como devuelvo el equipo empresa",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1221",
+    "pregunta": "Que cobertura tiene mi comuna de TV",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1222",
+    "pregunta": "Cuanto cuesta el roaming movil",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1224",
+    "pregunta": "Necesito ayuda: que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan Plan Andes 200.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1226",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Movil Control 3G.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1227",
+    "pregunta": "Como anulo mi servicio de TV",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1228",
+    "pregunta": "Quiero saber cuando vence mi boleta",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/897'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1230",
+    "pregunta": "Como agendo una visita tecnica empresa",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1231",
+    "pregunta": "Como me porto a Andesnet empresa",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1232",
+    "pregunta": "Que hago si no tengo internet prepago",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1234",
+    "pregunta": "Como anulo mi servicio",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1235",
+    "pregunta": "cuanto cuesta el roaming ?",
+    "respuesta": "Depende del pais y del plan contratado. Aplica al plan Movil Control 3G.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1236",
+    "pregunta": "Cuanto cuesta el roaming prepago",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1238",
+    "pregunta": "Como veo la TV en el celular",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/259'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1239",
+    "pregunta": "Como agendo una visita tecnica prepago",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/386'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1240",
+    "pregunta": "Que cobertura tiene mi comuna",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web. Aplica al plan TV Basico Analogo.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1241",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/387'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1244",
+    "pregunta": "Como veo la TV en el celular de fibra",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1245",
+    "pregunta": "Cuando vence mi boleta movil",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/391'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1246",
+    "pregunta": "Que hago si no tengo internet de fibra",
+    "respuesta": "<p>Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.</p><a href='/ayuda/462'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1247",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Plan Andes 200.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1250",
+    "pregunta": "Que cobertura tiene mi comuna movil",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/862'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1252",
+    "pregunta": "Que hago si no tengo internet de fibra",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1253",
+    "pregunta": "Cuanto cuesta el roaming movil",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/275'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1254",
+    "pregunta": "Cuando vence mi boleta",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/550'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1256",
+    "pregunta": "Necesito ayuda: como cambio mi plan",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1257",
+    "pregunta": "Como me porto a Andesnet prepago",
+    "respuesta": "<p>Necesitas tu cedula de identidad y el numero a portar.</p><a href='/ayuda/850'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1258",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1259",
+    "pregunta": "Que hago si no tengo internet empresa",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1260",
+    "pregunta": "Como veo la TV en el celular prepago",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/601'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1262",
+    "pregunta": "Cuando vence mi boleta movil",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan Banda Ancha 20M.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1263",
+    "pregunta": "Como anulo mi servicio de fibra",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1264",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1265",
+    "pregunta": "Que pasa si pago atrasado",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1266",
+    "pregunta": "Cuando vence mi boleta",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1267",
+    "pregunta": "Como devuelvo el equipo de TV",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/496'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1268",
+    "pregunta": "Como anulo mi servicio prepago",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/316'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1269",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1270",
+    "pregunta": "cuando vence mi boleta ?",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1271",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1272",
+    "pregunta": "que hago si no tengo internet paso a paso",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1275",
+    "pregunta": "Necesito ayuda: que cobertura tiene mi comuna",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/416'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1276",
+    "pregunta": "Que pasa si pago atrasado de fibra",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/599'>Ver mas</a> Aplica al plan Duo Clasico.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1279",
+    "pregunta": "Como agendo una visita tecnica de fibra",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1280",
+    "pregunta": "Como agendo una visita tecnica de TV",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/850'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1281",
+    "pregunta": "Como agendo una visita tecnica movil",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/860'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1285",
+    "pregunta": "Cuando vence mi boleta prepago",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/668'>Ver mas</a> Aplica al plan Banda Ancha 20M.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1288",
+    "pregunta": "Que cobertura tiene mi comuna movil",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/750'>Ver mas</a> Aplica al plan Movil Control 3G.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1289",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan Plan Andes 200.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1290",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1292",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1293",
+    "pregunta": "Quiero saber como agendo una visita tecnica",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/171'>Ver mas</a> Aplica al plan Duo Clasico.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1294",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1295",
+    "pregunta": "Como me porto a Andesnet empresa",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1296",
+    "pregunta": "Como me porto a Andesnet movil",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1297",
+    "pregunta": "Cuanto cuesta el roaming movil",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1298",
+    "pregunta": "Cuando vence mi boleta de TV",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan Duo Clasico.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1299",
+    "pregunta": "Necesito ayuda: como agendo una visita tecnica",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/601'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1301",
+    "pregunta": "Cuando vence mi boleta movil",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1302",
+    "pregunta": "Como cambio mi plan movil",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/491'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1303",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1304",
+    "pregunta": "Como devuelvo el equipo empresa",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Duo Clasico.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1305",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1306",
+    "pregunta": "Que hago si no tengo internet prepago",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1307",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1308",
+    "pregunta": "Cuanto cuesta el roaming movil",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/900'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1309",
+    "pregunta": "Cuanto cuesta el roaming",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1311",
+    "pregunta": "Como devuelvo el equipo de fibra",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1312",
+    "pregunta": "como anulo mi servicio paso a paso",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1313",
+    "pregunta": "Como cambio mi plan",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1314",
+    "pregunta": "Como me porto a Andesnet prepago",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1318",
+    "pregunta": "como pago mi cuenta ?",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia. Aplica al plan Duo Clasico.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1319",
+    "pregunta": "Como pago mi cuenta movil",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1320",
+    "pregunta": "Como cambio mi plan prepago",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/838'>Ver mas</a> Aplica al plan Plan Andes 200.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1321",
+    "pregunta": "Como agendo una visita tecnica de TV",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1322",
+    "pregunta": "Como veo la TV en el celular de TV",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan TV Basico Analogo.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1324",
+    "pregunta": "que pasa si pago atrasado paso a paso",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/289'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1325",
+    "pregunta": "Como pago mi cuenta de TV",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1327",
+    "pregunta": "Como anulo mi servicio",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1328",
+    "pregunta": "Que hago si no tengo internet movil",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1333",
+    "pregunta": "Que cobertura tiene mi comuna",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web. Aplica al plan Plan Andes 200.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1334",
+    "pregunta": "Como devuelvo el equipo movil",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/782'>Ver mas</a>",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1335",
+    "pregunta": "Cuando vence mi boleta de TV",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/213'>Ver mas</a>",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1338",
+    "pregunta": "cuanto cuesta el roaming ?",
+    "respuesta": "Depende del pais y del plan contratado. Aplica al plan Plan Cobre 10M.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1339",
+    "pregunta": "Cuando vence mi boleta de TV",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1342",
+    "pregunta": "Como devuelvo el equipo empresa",
+    "respuesta": "<p>Acercate a cualquier sucursal con el equipo y su cargador.</p><a href='/ayuda/362'>Ver mas</a>",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1343",
+    "pregunta": "Como devuelvo el equipo empresa",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Duo Clasico.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1346",
+    "pregunta": "Como cambio mi plan movil",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1347",
+    "pregunta": "que pasa si pago atrasado paso a paso",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1349",
+    "pregunta": "Que pasa si pago atrasado",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/706'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1350",
+    "pregunta": "Que cobertura tiene mi comuna prepago",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1351",
+    "pregunta": "Como veo la TV en el celular prepago",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1352",
+    "pregunta": "Como anulo mi servicio",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1353",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1354",
+    "pregunta": "Que pasa si pago atrasado de fibra",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias. Aplica al plan Duo Clasico.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1355",
+    "pregunta": "Como pago mi cuenta movil",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia. Aplica al plan Movil Control 3G.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1360",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/335'>Ver mas</a> Aplica al plan Plan Cobre 10M.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1362",
+    "pregunta": "Como cambio mi plan de TV",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/738'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1365",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1367",
+    "pregunta": "Como agendo una visita tecnica de TV",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1368",
+    "pregunta": "Como me porto a Andesnet de TV",
+    "respuesta": "<p>Necesitas tu cedula de identidad y el numero a portar.</p><a href='/ayuda/71'>Ver mas</a>",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1369",
+    "pregunta": "Que cobertura tiene mi comuna de TV",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/869'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1370",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/565'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1372",
+    "pregunta": "Como anulo mi servicio movil",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1373",
+    "pregunta": "como me porto a andesnet paso a paso",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1374",
+    "pregunta": "Que pasa si pago atrasado de TV",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1375",
+    "pregunta": "Como agendo una visita tecnica prepago",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/879'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1376",
+    "pregunta": "Como pago mi cuenta de fibra",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1379",
+    "pregunta": "Como cambio mi plan",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1381",
+    "pregunta": "como anulo mi servicio desde la app",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1382",
+    "pregunta": "Como me porto a Andesnet de TV",
+    "respuesta": "<p>Necesitas tu cedula de identidad y el numero a portar.</p><a href='/ayuda/436'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1383",
+    "pregunta": "Cuando vence mi boleta prepago",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1387",
+    "pregunta": "Que pasa si pago atrasado empresa",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/558'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1388",
+    "pregunta": "Como cambio mi plan de TV",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/543'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1391",
+    "pregunta": "Como cambio mi plan de fibra",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1393",
+    "pregunta": "Como veo la TV en el celular de TV",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1394",
+    "pregunta": "Que cobertura tiene mi comuna",
+    "respuesta": "<p>Consulta el mapa de cobertura en el sitio web.</p><a href='/ayuda/384'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1397",
+    "pregunta": "Cuando vence mi boleta empresa",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1398",
+    "pregunta": "Como agendo una visita tecnica de fibra",
+    "respuesta": "<p>Desde la app o llamando al 600 600 6000.</p><a href='/ayuda/833'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1399",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1400",
+    "pregunta": "Que pasa si pago atrasado prepago",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/771'>Ver mas</a> Aplica al plan Plan Andes 200.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1401",
+    "pregunta": "Quiero saber como anulo mi servicio",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1402",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1403",
+    "pregunta": "Necesito ayuda: que pasa si pago atrasado",
+    "respuesta": "<p>Se aplica interes y el servicio puede suspenderse a los 30 dias.</p><a href='/ayuda/639'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1404",
+    "pregunta": "que pasa si pago atrasado desde la app",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1406",
+    "pregunta": "Como veo la TV en el celular de TV",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan Movil Control 3G.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1407",
+    "pregunta": "Como veo la TV en el celular prepago",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan Duo Clasico.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1408",
+    "pregunta": "Como devuelvo el equipo prepago",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1410",
+    "pregunta": "Como me porto a Andesnet prepago",
+    "respuesta": "<p>Necesitas tu cedula de identidad y el numero a portar.</p><a href='/ayuda/27'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1411",
+    "pregunta": "Como cambio mi plan de TV",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar. Aplica al plan Plan Andes 200.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1412",
+    "pregunta": "Quiero saber cuanto cuesta el roaming",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1414",
+    "pregunta": "Que cobertura tiene mi comuna de fibra",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web. Aplica al plan Banda Ancha 20M.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1416",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/53'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1418",
+    "pregunta": "Que hago si no tengo internet de fibra",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1419",
+    "pregunta": "Como devuelvo el equipo",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Plan Andes 200.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1421",
+    "pregunta": "Como anulo mi servicio empresa",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1422",
+    "pregunta": "Como me porto a Andesnet",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1426",
+    "pregunta": "Que pasa si pago atrasado movil",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1428",
+    "pregunta": "Cuanto cuesta el roaming de TV",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/741'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1429",
+    "pregunta": "Cuanto cuesta el roaming empresa",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1430",
+    "pregunta": "como veo la tv en el celular ?",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan Plan Andes 200.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1431",
+    "pregunta": "Necesito ayuda: que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1432",
+    "pregunta": "Que hago si no tengo internet empresa",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan Banda Ancha 20M.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1434",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1435",
+    "pregunta": "Cuando vence mi boleta movil",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1436",
+    "pregunta": "Cuando vence mi boleta de fibra",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1437",
+    "pregunta": "Como veo la TV en el celular",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1439",
+    "pregunta": "Como cambio mi plan",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/640'>Ver mas</a> Aplica al plan Duo Clasico.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1442",
+    "pregunta": "Como anulo mi servicio empresa",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/211'>Ver mas</a>",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1443",
+    "pregunta": "Cuando vence mi boleta de TV",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/331'>Ver mas</a>",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1444",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "<p>Necesitas tu cedula de identidad y el numero a portar.</p><a href='/ayuda/318'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1445",
+    "pregunta": "como agendo una visita tecnica desde la app",
+    "respuesta": "Desde la app o llamando al 600 600 6000.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1448",
+    "pregunta": "como cambio mi plan paso a paso",
+    "respuesta": "Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1449",
+    "pregunta": "como pago mi cuenta desde la app",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1450",
+    "pregunta": "Como anulo mi servicio prepago",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1451",
+    "pregunta": "Cuando vence mi boleta",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan Banda Ancha 20M.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1452",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1453",
+    "pregunta": "Que cobertura tiene mi comuna prepago",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1454",
+    "pregunta": "Cuanto cuesta el roaming de fibra",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1455",
+    "pregunta": "Como me porto a Andesnet empresa",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1456",
+    "pregunta": "Como pago mi cuenta empresa",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1457",
+    "pregunta": "Como cambio mi plan empresa",
+    "respuesta": "<p>Ingresa al portal, seccion Mi Plan, y selecciona Cambiar.</p><a href='/ayuda/196'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1458",
+    "pregunta": "Como pago mi cuenta de TV",
+    "respuesta": "<p>Puedes pagar en linea desde el portal, en sucursales o por transferencia.</p><a href='/ayuda/715'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1460",
+    "pregunta": "Que hago si no tengo internet movil",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1461",
+    "pregunta": "Como me porto a Andesnet movil",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1462",
+    "pregunta": "Como me porto a Andesnet movil",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "estado_visita"
+  },
+  {
+    "articulo_id": "FQ1463",
+    "pregunta": "Como veo la TV en el celular",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1464",
+    "pregunta": "Como anulo mi servicio prepago",
+    "respuesta": "Debes llamar y hablar con un ejecutivo de retencion.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1465",
+    "pregunta": "Cuando vence mi boleta de fibra",
+    "respuesta": "La fecha de vencimiento aparece en la esquina superior derecha de tu boleta. Aplica al plan TV Basico Analogo.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1466",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1467",
+    "pregunta": "Como veo la TV en el celular",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1468",
+    "pregunta": "Cuanto cuesta el roaming prepago",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/615'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1469",
+    "pregunta": "Como veo la TV en el celular de TV",
+    "respuesta": "<p>Descarga la app Andesnet TV e inicia sesion.</p><a href='/ayuda/627'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1470",
+    "pregunta": "Que hago si no tengo internet de TV",
+    "respuesta": "<p>Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.</p><a href='/ayuda/556'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1471",
+    "pregunta": "Que pasa si pago atrasado prepago",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1472",
+    "pregunta": "Cuanto cuesta el roaming de fibra",
+    "respuesta": "<p>Depende del pais y del plan contratado.</p><a href='/ayuda/630'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1473",
+    "pregunta": "Como veo la TV en el celular de fibra",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan TV Basico Analogo.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1474",
+    "pregunta": "Que pasa si pago atrasado empresa",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "cambio_plan"
+  },
+  {
+    "articulo_id": "FQ1475",
+    "pregunta": "Que hago si no tengo internet prepago",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1476",
+    "pregunta": "Que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan TV Basico Analogo.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1478",
+    "pregunta": "Cuando vence mi boleta movil",
+    "respuesta": "<p>La fecha de vencimiento aparece en la esquina superior derecha de tu boleta.</p><a href='/ayuda/700'>Ver mas</a>",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1479",
+    "pregunta": "Que hago si no tengo internet de TV",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1480",
+    "pregunta": "Como me porto a Andesnet de fibra",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1481",
+    "pregunta": "Que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan Movil Control 3G.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1482",
+    "pregunta": "Que hago si no tengo internet",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona. Aplica al plan Movil Control 3G.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1483",
+    "pregunta": "Como me porto a Andesnet prepago",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "consulta_saldo"
+  },
+  {
+    "articulo_id": "FQ1485",
+    "pregunta": "Como me porto a Andesnet movil",
+    "respuesta": "<p>Necesitas tu cedula de identidad y el numero a portar.</p><a href='/ayuda/776'>Ver mas</a>",
+    "intent": "consulta_general"
+  },
+  {
+    "articulo_id": "FQ1487",
+    "pregunta": "Como devuelvo el equipo de TV",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Movil Control 3G.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1488",
+    "pregunta": "como pago mi cuenta desde la app",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1489",
+    "pregunta": "Como devuelvo el equipo de TV",
+    "respuesta": "Acercate a cualquier sucursal con el equipo y su cargador. Aplica al plan Plan Cobre 10M.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1491",
+    "pregunta": "Como me porto a Andesnet movil",
+    "respuesta": "Necesitas tu cedula de identidad y el numero a portar.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1492",
+    "pregunta": "cuanto cuesta el roaming paso a paso",
+    "respuesta": "Depende del pais y del plan contratado.",
+    "intent": "anulacion"
+  },
+  {
+    "articulo_id": "FQ1493",
+    "pregunta": "Como pago mi cuenta de fibra",
+    "respuesta": "Puedes pagar en linea desde el portal, en sucursales o por transferencia.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1494",
+    "pregunta": "Que pasa si pago atrasado prepago",
+    "respuesta": "Se aplica interes y el servicio puede suspenderse a los 30 dias.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1495",
+    "pregunta": "Que cobertura tiene mi comuna de TV",
+    "respuesta": "Consulta el mapa de cobertura en el sitio web.",
+    "intent": "portabilidad"
+  },
+  {
+    "articulo_id": "FQ1496",
+    "pregunta": "Que hago si no tengo internet de TV",
+    "respuesta": "Reinicia el router, revisa las luces y verifica que no haya corte en tu zona.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1497",
+    "pregunta": "Como veo la TV en el celular movil",
+    "respuesta": "Descarga la app Andesnet TV e inicia sesion. Aplica al plan Banda Ancha 20M.",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1498",
+    "pregunta": "Como anulo mi servicio de TV",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/689'>Ver mas</a>",
+    "intent": "falla_conexion"
+  },
+  {
+    "articulo_id": "FQ1499",
+    "pregunta": "Como anulo mi servicio de fibra",
+    "respuesta": "<p>Debes llamar y hablar con un ejecutivo de retencion.</p><a href='/ayuda/476'>Ver mas</a> Aplica al plan Duo Clasico.",
+    "intent": "consulta_general"
+  }
+]

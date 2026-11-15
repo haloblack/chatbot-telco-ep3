@@ -1,0 +1,26 @@
+services:
+  api:
+    build: .
+    image: telco-chatbot:local
+    volumes:
+      - "${USERPROFILE}/.aws:/root/.aws:ro"
+    environment:
+      AWS_PROFILE: default
+      AWS_REGION: us-east-1
+
+  worker:
+    build: .
+    image: telco-chatbot:local
+    volumes:
+      - "${USERPROFILE}/.aws:/root/.aws:ro"
+    environment:
+      AWS_PROFILE: default
+      AWS_REGION: us-east-1
+
+  caddy:
+    ports:
+      - "8080:80"
+
+  grafana:
+    ports:
+      - "3000:3000"
