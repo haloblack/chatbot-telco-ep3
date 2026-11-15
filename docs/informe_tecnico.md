@@ -179,7 +179,7 @@ Declaramos que se utilizó ChatGPT como apoyo para estructurar código, document
 | API key de prueba del docente | `[GENERAR Y ENTREGAR POR CANAL SEGURO]` |
 | Endpoint SageMaker | `chatbot-telco-ep3` (verificado InService) |
 | Repositorio y tag | `https://github.com/haloblack/chatbot-telco-ep3` · `ep3` |
-| Último workflow verde | `[URL_GITHUB_ACTIONS]` |
+| Último workflow verde | `https://github.com/haloblack/chatbot-telco-ep3/actions/runs/43752520226` |
 | Usuario GitHub integrante 1 | `haloblack` |
 | Usuario GitHub integrante 2 | `[PENDIENTE]` |
 
