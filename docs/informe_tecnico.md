@@ -177,10 +177,10 @@ Declaramos que se utilizó ChatGPT como apoyo para estructurar código, document
 | Swagger `/docs` | `https://18-215-177-17.sslip.io/docs` (verificado desde navegador, OpenAPI 3.1) |
 | Health `/api/health` | `https://18-215-177-17.sslip.io/api/health` (verificado: HTTP 200) |
 | API key de prueba del docente | `[GENERAR Y ENTREGAR POR CANAL SEGURO]` |
-| Endpoint SageMaker | `telco-equipo1-intent-ep3` (confirmar InService) |
-| Repositorio y tag | `[URL_REPO]` · `ep3` |
+| Endpoint SageMaker | `chatbot-telco-ep3` (confirmar InService) |
+| Repositorio y tag | `https://github.com/haloblack/chatbot-telco-ep3` · `ep3` |
 | Último workflow verde | `[URL_GITHUB_ACTIONS]` |
-| Usuario GitHub integrante 1 | `[PENDIENTE]` |
+| Usuario GitHub integrante 1 | `haloblack` |
 | Usuario GitHub integrante 2 | `[PENDIENTE]` |
 
 ## Actualización de evidencias AWS — 15 de noviembre de 2026
