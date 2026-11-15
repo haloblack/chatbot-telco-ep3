@@ -68,7 +68,7 @@ El despliegue utiliza credenciales AWS asociadas a la instancia. La configuraci�
 **Diagrama de despliegue:** ver `docs/arquitectura.md` y su diagrama Mermaid.
 
 **Cold start:** ejecutar `scripts/measure_endpoint.py` para medir una primera invocación y otra después de 600 segundos sin uso. Registrar ambos valores, fecha, endpoint, región y memoria.  
-`[PENDIENTE AWS: latencia invocación 1 = ___ ms; latencia invocación 2 tras 10 min = ___ ms]`.
+`Invocación 1: 137,09 ms. Segunda invocación tras 10 minutos de inactividad: 6.954,14 ms. Medición observada; no atribuible exclusivamente a cold start sin validación adicional.`.
 
 **CloudWatch:** `scripts/cloudwatch_metrics.py` consulta `Invocations` y `ModelLatency` de `AWS/SageMaker`. Adjuntar capturas y logs del microservicio.  
 **Evidencia parcial de CloudWatch (15-11-2026):** se consultaron 161 eventos del grupo `/aws/sagemaker/Endpoints/chatbot-telco-ep3` durante la prueba de carga. Se observaron múltiples invocaciones HTTP 200 y alertas de permisos durante la inicialización. No se identificó una causa confirmada del error HTTP 503 registrado por FastAPI.
