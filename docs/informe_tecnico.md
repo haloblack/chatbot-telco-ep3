@@ -1,4 +1,4 @@
-# EP3 · Equipo 1 · Chatbot Telco · Informe técnico (borrador para completar con evidencia AWS)
+# EP3 · Equipo 1 · Chatbot Telco · Informe técnico (evidencias AWS y pendientes documentados)
 
 **Asignatura:** ITY1102 Arquitectura de Sistemas de Inteligencia Artificial  
 **Caso:** 2 · Chatbot inteligente para Andesnet Telecomunicaciones S.A.  
@@ -23,7 +23,7 @@ El conjunto final contiene 4.680 mensajes únicos: 3.744 para entrenamiento (80%
 | F1 macro | 0,8131 |
 | Train / test | 3.744 / 936 |
 
-El detalle por clase y matriz de confusión está en `data/processed/metrics.json`. Estas cifras corresponden a la ejecución local del clasificador; SageMaker volverá a entrenar el modelo con Script Mode usando los mismos archivos anonimizados. No deben presentarse como métricas de un endpoint cloud hasta completar esa ejecución.
+El detalle por clase y matriz de confusión está en `data/processed/metrics.json`. Estas cifras corresponden a la ejecución local del clasificador; SageMaker completó el entrenamiento mediante Script Mode y el endpoint fue verificado en estado InService. Las métricas de clasificación aquí indicadas corresponden a la evaluación local y no deben atribuirse al endpoint cloud sin una evaluación independiente.
 
 **Configuración SageMaker desplegada:** región `us-east-1`; endpoint Serverless `chatbot-telco-ep3` en estado `InService`, memoria 2.048 MB y concurrencia máxima 1; versión del modelo `telco-equipo1-v1`. La API utiliza las credenciales AWS disponibles en EC2 para invocar el endpoint. Se selecciona Serverless por su cobro ligado al uso y para evitar mantener una instancia de inferencia encendida en Learner Lab. Si el laboratorio lo rechaza, la alternativa documentada es endpoint realtime `ml.m5.large`, encendido solo durante la sesión y eliminado al terminar.
 
